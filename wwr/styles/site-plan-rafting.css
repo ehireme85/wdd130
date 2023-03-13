@@ -9,10 +9,10 @@
     --heading-font: 'Golos Text';
     --paragraph-font: 'sans-serif', serif;
   
-    --nav-background-color: ##D6D0D0;
+    --nav-background-color: #D6D0D0;
     --nav-link-color: #242315;
-    --nav-hover-link-color: #XXXXXX;
-    --nav-hover-background-color: #XXXXXX;
+    --nav-hover-link-color: #1F6CA6;
+    --nav-hover-background-color: #D6D0D0;
   }
 
   body {
