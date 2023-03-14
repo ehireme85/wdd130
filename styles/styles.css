@@ -87,3 +87,7 @@ aside h2 {
     top: 70px;
     left: 150px;
   }
+
+ main {
+  max-width: 640px;
+  }
