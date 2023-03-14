@@ -43,7 +43,7 @@ nav {
     background-color: #eee;
     color: #333;
     text-align: center;
-    position: relative;
+
   }
 
   aside img {
@@ -76,6 +76,11 @@ nav {
     color: #000;
   }
 
+  aside {
+    width: 20em;
+    text-align: center;
+    position: relative;
+  }
 
 aside h2 {
     position: absolute;
