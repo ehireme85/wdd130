@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+:root {
+    --primary-color: #1F6CA6;
+    --secondary-color: #D6D0D0;
+    --accent1-color: #EB6E6E;
+    --accent2-color: #F7F7F7;
+  
+    --heading-font: 'Golos Text';
+    --paragraph-font: 'sans-serif', serif;
+  
+    --nav-background-color: #D6D0D0;
+    --nav-link-color: #242315;
+    --nav-hover-link-color: #1F6CA6;
+    --nav-hover-background-color: #D6D0D0;
+  }
+
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
