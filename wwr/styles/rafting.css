@@ -15,7 +15,10 @@
     --nav-hover-background-color: #D6D0D0;
   }
 
- 
+  main {
+	max-width: 800px;
+	margin: 2rem auto;
+}
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -40,21 +43,18 @@
   }
 
   .hero {
-	margin: 10px auto;
-	position: relative;
-}
-
-
-  .hero img {
+    position: relative;
     display: block;
     width: 100%;
     height: auto;
   }
 
-  .stat {
+
+
+  .hero article img {
 	position: absolute;
-	top: 25px;
-	right: 15px;
+	top: 250px;
+	left: 800px;
     border: 1px solid #000;
 	padding: 0.65rem;
 	box-shadow: 0 0 30px #111;
