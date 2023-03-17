@@ -9,11 +9,47 @@
     --heading-font: 'Golos Text';
     --paragraph-font: 'sans-serif', serif;
   
-    --nav-background-color: #D6D0D0;
+    --nav-background-color: #;
     --nav-link-color: #242315;
     --nav-hover-link-color: #1F6CA6;
     --nav-hover-background-color: #D6D0D0;
   }
+
+ 
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+
+  header {
+    padding: 20px;
+    background-color: var(--accent2-color);
+  }
+
+  p {
+    padding: 15px;
+  }
+
+  nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    text-size-adjust: 5px;
+    float: right;
+    display: flex;
+  }
+
+  article img{
+    position: absolute;
+
+    }
+
+
+  .hero {
+	margin: 10px auto;
+	position: relative;
+}
+
 
   .hero img {
     display: block;
@@ -21,13 +57,14 @@
     height: auto;
   }
 
+ 
+
   footer {
-	position: fixed;
 	bottom: 0;
 	margin: 1rem;
-	border-top: 1px solid #000;
 	padding: 0.5rem;
 	color: #1F6CA6;
 	font-weight: 700;
 	font-style: serif;
+    text-align: center;
 }
