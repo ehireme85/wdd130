@@ -16,11 +16,11 @@
   }
 
   main {
-	max-width: 800px;
+	max-width: 1024px;
 	margin: 2rem auto;
 }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
   }
@@ -47,6 +47,7 @@
     display: block;
     width: 100%;
     height: auto;
+    opacity: 0.8;
   }
 
   #tag {
@@ -69,7 +70,7 @@
     position: absolute;
     top: 250px;
 	left: 50px;
-    width: 900px;
+    width: 950px;
     height: auto;
     
   }
