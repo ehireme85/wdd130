@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
 
-:root {
+ :root {
     --primary-color: #1F6CA6;
     --secondary-color: #D6D0D0;
     --accent1-color: #EB6E6E;
@@ -18,19 +18,58 @@
   main {
 	max-width: 1024px;
 	margin: 2rem auto;
-}
+ }
 
   h1, h2, h3, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
   }
-
+   
   header {
     padding: 20px;
     background-color: var(--accent2-color);
-  }
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+ }
 
-  p {
+ .logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+ }
+
+h1 {
+	font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+ }
+
+ .navigation {
+	display: flex;
+	list-style: none;
+ }
+
+ .navigation li {
+	flex: 1 1 100%;
+ }
+
+ .navigation a {
+	display: block;
+	color: #1F6CA6;
+	padding: 20px;
+	text-decoration: none;
+ }
+
+ .navigation a:hover {
+	color: tomato;
+	font-weight: 550;
+	text-decoration: underline;
+ }
+
+ p {
     padding: 15px;
   }
 
@@ -38,8 +77,12 @@
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     text-size-adjust: 5px;
-    float: right;
+    text-align: right;
     display: flex;
+    font-weight:550;
+    text-decoration: underline;
+    list-style: none;
+    float: right;
   }
 
   .hero {
@@ -47,13 +90,19 @@
     display: block;
     width: 100%;
     height: auto;
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
   #tag {
     position: absolute;
     top: 50px;
     left: 400px;
+  }
+
+  #tag1 {
+    position: absolute;
+    left: 600px;
+    top: 780px;
   }
 
 
@@ -74,14 +123,42 @@
     height: auto;
     
   }
- 
+
+  .sec1 {
+    display: grid;
+    grid-template-columns: 40% 40% 40%;
+    border: 1px solid #000;
+	padding: 0.65rem;
+  }
 
   footer {
-	bottom: 0;
+	bottom: 250;
 	margin: 1rem;
 	padding: 0.5rem;
 	color: #1F6CA6;
 	font-weight: 700;
 	font-style: serif;
     text-align: center;
-}
+    
+ }
+
+ figure {
+    border: thin #D6D0D0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 3px;
+    max-width: 190px;
+    margin: auto;
+    align-content: center;
+    float: left;
+    
+    
+ }
+
+ figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+ }
