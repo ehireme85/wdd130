@@ -133,11 +133,11 @@ h1 {
   }
 
   footer {
-	bottom: 250;
+	bottom: 250px;
 	margin: 1rem;
 	padding: 0.5rem;
 	color: #1F6CA6;
-	font-weight: 700;
+	font-weight: 700px;
 	font-style: serif;
     text-align: center;
     
