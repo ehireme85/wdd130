@@ -15,6 +15,7 @@
     --nav-hover-background-color: #D6D0D0;
   }
 
+
   main {
 	max-width: 1024px;
 	margin: 2rem auto;
@@ -76,7 +77,7 @@ h1 {
   nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
-    text-size-adjust: 5px;
+    text-size-adjust: inherit;
     text-align: right;
     display: flex;
     font-weight:550;
