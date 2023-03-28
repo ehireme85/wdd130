@@ -5,111 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>testy</title>
+    <link rel="stylesheet" href="img/stylesheet.css">
 </head>
 <body>
-    <h2>HTML Forms</h2>
+    
 
-<form action="/action_page.php">
-  <label for="fname">Other Name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value=""><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value=""><br><br>
-  <input type="submit" value="Create Account">
-</form> 
-
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
-
-
-
-<p>Choose your favorite Web language:</p>
-
-<form>
-  <input type="radio" id="html" name="fav_language" value="HTML">
-  <label for="html">HTML</label><br>
-  <input type="radio" id="css" name="fav_language" value="CSS">
-  <label for="css">CSS</label><br>
-  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-  <label for="javascript">JavaScript</label>
-</form>
-
-
-
-<p></p>
-<form>
-    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-    <label for="vehicle1"> I have a bike</label><br>
-    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-    <label for="vehicle2"> I have a car</label><br>
-    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-    <label for="vehicle3"> I have a boat</label>
+  <form>
+    <h1>to: Mozilla</h1>
+  
+    <div id="from">
+      <label for="name">from:</label>
+      <input type="text" id="name" name="user_name" />
+    </div>
+  
+    <div id="reply">
+      <label for="mail">reply:</label>
+      <input type="email" id="mail" name="user_email" />
+    </div>
+  
+    <div id="message">
+      <label for="msg">Your message:</label>
+      <textarea id="msg" name="user_message"></textarea>
+    </div>
+  
+    <div class="button">
+      <button type="submit">Send your message</button>
+    </div>
   </form>
-<P></P>
-<br>
-  <main>
-    <div class="wrapper">
-      <form>
-        <div>
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name">
-        </div>
-        <div>
-          <label for="photo">Photo</label><br>
-          <input type="file" id="photo" name="photo">
-        </div>
-        <button>Save</button>
-      </form>
-    </div>
-  </main>
-<P></P>
-  <label for="color">Color</label>
-<select id="color" name="color">
-  <option value="orange">Orange</option>
-  <option value="pink">Pink</option>
-  <option value="green">Green</option>
-  <option value="blue">Blue</option>
-  <option value="black">Black</option>
-</select>
-<br>
-<p></p>
-<label for="comment">Comment</label>
-<textarea id="comment" name="comment"></textarea>
-<br>
-<p></p>
-<main>
-    <div class="wrapper">
-      <form>
-        <div>
-          <label for="color">What is your favorite color?</label>
-          <select id="color" name="color">
-    <option value="orange">Orange</option>
-    <option selected value="pink">Pink</option>
-  </select>
-        </div>
-        <button>Save</button>
-      </form>
-    </div>
-  </main>
   <br>
   <P></P>
 
-  <fieldset>
-    <legend>What is your favorite web technology</legend>
-
-    <label for="html">HTML</label>
-    <input type="radio" name="webfeature" value="html" id="html">
-
-    <label for="css">CSS</label>
-    <input type="radio" name="webfeature" value="css" id="css">
-</fieldset>
-<br>
-<P></P>
-<fieldset>
-    <legend>Contact Information</legend>
-    <label>Full Name: <input type="text" name="fullname"></label>
-    <label>Email: <input type="email" name="useremail"></label>
-  </fieldset>
 
 </body>
 </html>
