@@ -77,10 +77,13 @@
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
+    width: 130px;
+    margin: auto;
   }
   
   button:hover {
     background-color: darkgreen;
+    
   }
 
   footer {
@@ -99,10 +102,15 @@
 
   .column1 {
     grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
+    margin: 1rem 0;
   }
 
   .column2 {
     grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+  }
+
+  #feedback {
+    
   }
   
