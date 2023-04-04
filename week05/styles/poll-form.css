@@ -97,12 +97,13 @@
 
   .form-item {
     display: grid;
-    align-items: center;
+    align-items: center
   }
 
   .column1 {
     grid-template-columns: 3fr 1fr;
     margin: 1rem 0;
+    
   }
 
   .column2 {
@@ -110,7 +111,4 @@
     margin: 0.5rem 0;
   }
 
-  #feedback {
-    
-  }
   
