@@ -73,7 +73,9 @@
   .column1 {
     grid-template-columns: 3fr 2fr;
     margin: 0.5rem 0;
-    display: grid;
-    grid-gap: .5rem;
-    
+  }
+
+  input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
   }
