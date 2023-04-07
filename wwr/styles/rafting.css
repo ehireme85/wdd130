@@ -175,7 +175,7 @@ h1 {
   resize:vertical
 }
 
-input[type=submit] {
+button {
   background-color: navy;
   color: white;
   padding: 12px 20px;
@@ -184,7 +184,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+button:hover {
   background-color: #45a049;
 }
 
