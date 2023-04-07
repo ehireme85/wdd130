@@ -193,3 +193,8 @@ button:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+ article {
+  float: right;
+  left: 500px;
+}
