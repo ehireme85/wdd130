@@ -25,6 +25,12 @@
     font-family: var(--heading-font);
     color: var(--primary-color);
   }
+
+ h4 {
+  font-weight: 700;
+  font-size:large;
+  
+ }
    
   header {
     padding: 20px;
@@ -86,6 +92,17 @@ h1 {
     float: right;
   }
 
+  #book {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 1em;
+    color:#D6D0D0;
+    text-align: center;
+    letter-spacing: 0.0666667em;
+    text-decoration: none;
+
+  }
   .hero {
     position: relative;
     display: block;
